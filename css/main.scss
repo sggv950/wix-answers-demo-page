@@ -1,0 +1,21 @@
+@import url("https://www.fontify.me/wf/69b18bc9c88b25caf4f6625589be9e48");
+@import './sign-up.scss';
+@import './main-area.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  @media (max-width: 1215px) {
+    flex-direction: column;
+  }
+}
+

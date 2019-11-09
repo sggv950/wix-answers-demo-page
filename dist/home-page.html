@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Wix Answers Demo Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="main-area">
+        <div class="logo-top-bar">
+          <img class="logo" src="assets/logo.png" alt="logo" />
+        </div>
+        <div class="main-headline">
+          Get the Free eBook on Leading Support Trends
+        </div>
+        <div class="content-area">
+          <div class="description-rect">
+            <p>
+              Stay ahead of your industry with the skills to master customer
+              self-service and anticipate customer needs. Unlock the secrets
+              behind creatinf end-to-end support and leveraging support to boost
+              revenue. Put these techniques into practice today.
+            </p>
+          </div>
+          <div class="rectangles">
+            <div class="title-rect">
+              <div class="color-rect-1"></div>
+              <div class="color-rect-2"></div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class="sign-up">
+        <div class="form-headline">
+          <h3>Add Your Details and Get Your Free eBook</h3>
+        </div>
+        <form class="sign-up-form" onsubmit="submitForm(event)">
+          <div class="sign-up-input">
+            <input class="fullname-input input-field" type="text" placeholder="Full Name" />
+            <p class="validation-text hidden">please enter at least 1 character</p>
+          </div>
+          <div class="sign-up-input">
+            <input
+              class="email-input input-field"
+              type="email"
+              name=""
+              id=""
+              placeholder="Work Email"
+            />
+            <p class="validation-text hidden">invalid email address</p>
+          </div>
+          <div class="sign-up-input">
+            <input
+              class="phonenumber-input input-field"
+              type="tel"
+              name=""
+              id=""
+              placeholder="Phone Number"
+            />
+            <p class="validation-text hidden">invalid phone number</p>
+          </div>
+          <div class="sign-up-input">
+            <input
+              class="companyname-input input-field"
+              type="text"
+              name=""
+              id=""
+              placeholder="Company Name"
+            />
+            <p class="validation-text hidden">please enter at least 1 character</p>
+          </div>
+          <div class="sign-up-input">
+            <select class="companysize-select input-field" name="" id="">
+              <option value="">Company Size</option>
+              <option value="small">Small</option>
+              <option value="large">Large</option>
+              <option value="enterprise">Enterprise</option>
+            </select>
+            <p class="validation-text hidden">please pick company size</p>
+          </div>
+          <div class="approve-terms">
+            <div class="checkbox-approve input-field">
+              <input onclick="handleCheckbox()" class="checkbox-approve-input" type="checkbox" name="" id="" />
+              <p>
+                By checking this box, I approve Wix.com may contact me by phone
+                or email, using automated technology, with the contact details
+                entered on this form. I confirm that I've read the
+                <a href="#">Wix Privacy Policy</a>
+              </p>
+            </div>
+            <p class="validation-text hidden">please confirm by checking in the box</p>
+          </div>
+          <button class="submit-sign-up-btn">Download Now</button>
+        </form>
+      </section>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

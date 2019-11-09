@@ -1,0 +1,194 @@
+@import url("https://www.fontify.me/wf/69b18bc9c88b25caf4f6625589be9e48");
+.sign-up {
+  width: 30%;
+  background-color: #dc6149;
+  border: 1px solid #e2a899;
+  height: 100vh; }
+  @media (max-width: 1215px) {
+    .sign-up {
+      width: 100%; } }
+
+.form-headline {
+  margin-left: 52px;
+  color: #fff1f2; }
+  .form-headline h3 {
+    width: 200px;
+    line-height: 1.5; }
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto; }
+  .sign-up-form .sign-up-input {
+    margin-bottom: 35px;
+    width: 100%; }
+    .sign-up-form .sign-up-input input,
+    .sign-up-form .sign-up-input select {
+      width: 100%;
+      font-size: 15px;
+      outline: none;
+      padding: 10px;
+      -webkit-appearance: none;
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #f9886a;
+      background-color: #dc6149;
+      border-radius: unset;
+      color: #ffa9a2; }
+      .sign-up-form .sign-up-input input:focus,
+      .sign-up-form .sign-up-input select:focus {
+        outline: none; }
+      .sign-up-form .sign-up-input input::placeholder,
+      .sign-up-form .sign-up-input select::placeholder {
+        color: #ffa9a2; }
+  .sign-up-form .select-placeholder {
+    color: #ffa9a2; }
+
+.approve-terms {
+  margin-bottom: 20px; }
+
+.checkbox-approve {
+  display: flex; }
+  .checkbox-approve input {
+    outline: 1px solid white;
+    position: relative;
+    background-color: #dc6149; }
+    .checkbox-approve input:not(.checked):before {
+      content: "";
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-color: #dc6149;
+      position: absolute;
+      z-index: 0; }
+  .checkbox-approve p {
+    color: #ffa9a2;
+    margin: 0;
+    font-size: 10px;
+    line-height: 1.5;
+    padding: 2px 10px; }
+    .checkbox-approve p a {
+      color: white; }
+
+.submit-sign-up-btn {
+  width: 155px;
+  height: 50px;
+  background-color: #1f3d86;
+  border-radius: 30px;
+  color: #c9e5ff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none; }
+
+.validation-text {
+  margin: 5px 0 0 0;
+  font-size: 9px;
+  color: white; }
+
+.hidden {
+  display: none; }
+
+.main-area {
+  border-top: 1px solid #7d7d7d;
+  width: 70%; }
+  @media (max-width: 1215px) {
+    .main-area {
+      width: 100%; } }
+
+.logo-top-bar {
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 120px; }
+  .logo-top-bar .logo {
+    height: 100%; }
+
+.main-headline {
+  font-family: font78855, Helvetica, sans-serif;
+  line-height: 1;
+  word-spacing: 5px;
+  margin-left: 120px;
+  width: 65%;
+  margin-top: 30px;
+  height: 25%;
+  font-size: 60px; }
+  @media (max-width: 550px) {
+    .main-headline {
+      font-size: 40px;
+      width: 90%;
+      margin: 20px auto; } }
+
+.content-area {
+  position: relative;
+  margin-top: 150px; }
+  @media (max-width: 550px) {
+    .content-area {
+      margin-top: 50px; } }
+
+.description-rect {
+  margin-left: 70px;
+  color: #4d4d4d;
+  width: 430px;
+  border: 1px solid black;
+  padding: 45px; }
+  .description-rect p {
+    line-height: 25px;
+    margin: 0px;
+    font-size: 17px; }
+  @media (max-width: 550px) {
+    .description-rect {
+      margin: 0 auto;
+      width: 90%; } }
+
+.rectangles {
+  position: absolute;
+  top: -120px;
+  left: 499px; }
+  @media (max-width: 550px) {
+    .rectangles {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      margin: 65px; } }
+
+.title-rect {
+  position: relative;
+  width: 325px;
+  height: 430px;
+  background-color: #01418b; }
+
+.color-rect-1 {
+  position: absolute;
+  background-color: #dc6149;
+  top: -30px;
+  left: -30px;
+  height: 150px;
+  width: 140px;
+  z-index: -1; }
+
+.color-rect-2 {
+  position: absolute;
+  background-color: #dcbf52;
+  bottom: -30px;
+  right: -30px;
+  height: 315px;
+  width: 150px;
+  z-index: -1; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  display: flex; }
+  @media (max-width: 1215px) {
+    .container {
+      flex-direction: column; } }
