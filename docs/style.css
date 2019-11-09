@@ -161,6 +161,20 @@
   height: 430px;
   background-color: #01418b; }
 
+.title-rect-container {
+  display: flex;
+  flex-direction: column; }
+
+.title-rect-heading {
+  color: #fff; }
+  .title-rect-heading .title-rect-heading-text {
+    margin: 0;
+    padding: 50px 70px 15px 45px;
+    font-size: 25px; }
+
+.title-rect-img img {
+  width: 100%; }
+
 .color-rect-1 {
   position: absolute;
   background-color: #dc6149;
