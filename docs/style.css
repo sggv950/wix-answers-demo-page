@@ -1,4 +1,7 @@
-/* @import url("https://www.fontify.me/wf/69b18bc9c88b25caf4f6625589be9e48"); */
+@font-face {
+  font-family: CustomFont;
+  src: url(./assets/fonts/HelveticaNeue-Black.ttf); }
+
 .sign-up {
   width: 30%;
   background-color: #dc6149;
@@ -108,9 +111,7 @@
     height: 100%; }
 
 .main-headline {
-/*   font-family: font78855, Helvetica, sans-serif; */
-  font-family: Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: CustomFont, Helvetica, sans-serif;
   line-height: 1;
   word-spacing: 5px;
   margin-left: 120px;
